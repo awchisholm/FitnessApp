@@ -1225,7 +1225,7 @@ textblank = Text(Graph_and_ListBox_Box, text="                                  
 ########################################
 # this bit of code called the functions that delete the existing database named FitnessApp, and then create a brand new one using DDL and DML sql in files and by calling these functions
 delete_database(database_file)
-init_db(database_file, "CreateDatabase.sql")
-init_db(database_file, "DummyData.sql")
+init_db(database_file, "CreateDatabase.sql") # this is the SQL Data Definition Language to create the database
+init_db(database_file, "DummyData.sql")      # this is the SQL Data Manipulation Language to insert dummy data
 
 app.display()
