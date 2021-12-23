@@ -809,7 +809,7 @@ app = App(title = "Login / Signup Page", layout="auto")
 #
 app.after(1800000, SignOut)
 # on all of these i am making it full screen for the user expeirence.
-app.set_full_screen()
+#app.set_full_screen()
 textblank = Text(app, text=" ")
 text = Text(app, text="Please Login or", size=15)
 text2 = Text(app, text="Create an Account", size=15)
@@ -824,7 +824,7 @@ Signup_button = PushButton(box, text="Sign Up", command=SignupPageNavigation, wi
 ##############################
 # Create Login Page
 LoginPage = Window(app, title="Login Page")
-LoginPage.set_full_screen()
+#LoginPage.set_full_screen()
 textblank = Text(app, text=" ")
 box2 = Box(LoginPage, width="fill")
 LoginPage.hide()
@@ -846,7 +846,7 @@ Back_button = PushButton(LoginPage, text="Back", command=LoginBackButtonNavigati
 #         Signup Page         #
 ###############################
 SignupPage = Window(app, title="Signup Page")
-SignupPage.set_full_screen()
+#SignupPage.set_full_screen()
 SignupPage.hide()
 textblank = Text(SignupPage, text=" ")
 text = Text(SignupPage, text="    Please enter details:  ", size=15)
@@ -898,7 +898,7 @@ close_button = PushButton(SignupPage, text="Back", command=SignupBackButtonNavig
 #########################################
 # home page for fintess app
 FitnessAppHomePage = Window(app, title="Fitness App Home Page")
-FitnessAppHomePage.set_full_screen()
+#FitnessAppHomePage.set_full_screen()
 FitnessAppHomePage.hide()
 textblank = Text(FitnessAppHomePage, text= " ")
 text = Text(FitnessAppHomePage, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -941,7 +941,7 @@ Image3 = Picture(PictureBox3, image="Cardio.png", grid=[1,0], width = 400, heigh
 #         Fitness App Healthy Eating Page         #
 ###################################################
 FitnessAppEatingPage = Window(app, title="Fitness App Healthy Eating Page")
-FitnessAppEatingPage.set_full_screen()
+#FitnessAppEatingPage.set_full_screen()
 FitnessAppEatingPage.hide()
 textblank = Text(FitnessAppEatingPage, text= " ")
 text = Text(FitnessAppEatingPage, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -973,7 +973,7 @@ box6 = Box(box4, border=False, width="fill", grid=[1,0])
 #         Fitness App Workout Plan Page         #
 #################################################
 FitnessAppWorkoutPage = Window(app, title="Fitness App Workout Page")
-FitnessAppWorkoutPage.set_full_screen()
+#FitnessAppWorkoutPage.set_full_screen()
 FitnessAppWorkoutPage.hide()
 textblank = Text(FitnessAppWorkoutPage, text= " ")
 text = Text(FitnessAppWorkoutPage, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -1026,7 +1026,7 @@ Create_Workout_Button = PushButton(FitnessAppWorkoutPage, text="Create Workout",
 #         Fitness App Workout Creation Page         #
 #####################################################
 WorkoutCreationPage = Window(app, title="Fitness App Workout Creation Page")
-WorkoutCreationPage.set_full_screen()
+#WorkoutCreationPage.set_full_screen()
 WorkoutCreationPage.hide()
 textblank = Text(WorkoutCreationPage, text= " ")
 text = Text(WorkoutCreationPage, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -1054,7 +1054,7 @@ Workouts_Box =  Box(WorkoutCreationPage, layout="grid", width="fill", border=Fal
 #         Fitness App Subscriptions Page 1          #
 #####################################################
 SubscriptionsPage1 = Window(app, title="Fitness App Subscription Details Page")
-SubscriptionsPage1.set_full_screen()
+#SubscriptionsPage1.set_full_screen()
 SubscriptionsPage1.hide()
 textblank = Text(SubscriptionsPage1, text= " ")
 text = Text(SubscriptionsPage1, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -1097,7 +1097,7 @@ image1 = Picture(PictureBox, image="SubPicture.png", height=400, width=500)
 #         Fitness App Subscriptions Page 2          #
 #####################################################
 SubscriptionsPage2 = Window(app, title="Fitness App Subscription Details Page")
-SubscriptionsPage2.set_full_screen()
+#SubscriptionsPage2.set_full_screen()
 SubscriptionsPage2.hide()
 textblank = Text(SubscriptionsPage2, text= " ")
 text = Text(SubscriptionsPage2, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -1144,7 +1144,7 @@ image1 = Picture(PictureBox, image="SubPicture.png", height=400, width=500)
 #             Fitness App Tracking Page             #
 #####################################################
 TrackingPage = Window(app, title="Fitness App Tracking Page")
-TrackingPage.set_full_screen()
+#TrackingPage.set_full_screen()
 TrackingPage.hide()
 textblank = Text(TrackingPage, text= " ")
 text = Text(TrackingPage, text="ToKa Fitness App", size=30, font="Times New Roman")
@@ -1189,7 +1189,7 @@ InputButton = PushButton(TrackingPage, text="Done", command=InputWeightAndSteps,
 #               Fitness App Group Page              #
 #####################################################
 GroupPage = Window(app, title="Fitness App Group Page")
-GroupPage.set_full_screen()
+#GroupPage.set_full_screen()
 GroupPage.hide()
 textblank = Text(GroupPage, text= " ")
 text = Text(GroupPage, text="ToKa Fitness App", size=30, font="Times New Roman")
