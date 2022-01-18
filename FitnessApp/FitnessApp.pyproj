@@ -25,18 +25,59 @@
     <Compile Include="FitnessApp.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="10_LegsUp.gif" />
+    <Content Include="1_Running.gif" />
+    <Content Include="2_Forward_Lunge.gif" />
+    <Content Include="3_Backward_Lunge.gif" />
+    <Content Include="4_Jump.gif" />
+    <Content Include="5_Burpee.gif" />
+    <Content Include="6_Pushup.gif" />
+    <Content Include="7_Abworkout.gif" />
+    <Content Include="8_ButtBridge.gif" />
+    <Content Include="9_Plank.gif" />
+    <Content Include="Cardio.png" />
+    <Content Include="CreateDatabase.sql" />
+    <Content Include="DummyData.sql" />
+    <Content Include="exercise-exercising.gif" />
+    <Content Include="FoodHeart.png" />
+    <Content Include="funny.gif" />
+    <Content Include="Gifs1.gif" />
+    <Content Include="giphy.gif" />
+    <Content Include="HeathyEating.png" />
+    <Content Include="matplotlib_images\GroupTracking.png" />
+    <Content Include="matplotlib_images\TrackingSteps.png" />
+    <Content Include="matplotlib_images\TrackingWeight.png" />
     <Content Include="requirements.txt" />
+    <Content Include="seat.gif" />
+    <Content Include="StrengthTraining.png" />
+    <Content Include="Sub.png" />
+    <Content Include="SubPicture.png" />
+    <Content Include="therock.gif" />
+    <Content Include="Woman_Abdominal_Crunches.gif" />
+    <Content Include="Woman_Dumbell_Lifts.gif" />
+    <Content Include="Woman_Forward_Lunge.gif" />
+    <Content Include="Woman_Hammers.gif" />
+    <Content Include="Woman_Hip_Workout.gif" />
+    <Content Include="Woman_Legsup.gif" />
+    <Content Include="Woman_MountainClimber.gif" />
+    <Content Include="Woman_One_Legged_Squat.gif" />
+    <Content Include="Woman_Wall_Pushups.gif" />
+    <Content Include="workout.gif" />
+    <Content Include="workout2.gif" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
       <Id>env</Id>
-      <Version>3.7</Version>
-      <Description>env (Python 3.7 (64-bit))</Description>
+      <Version>3.8</Version>
+      <Description>env (Python 3.8 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="matplotlib_images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
